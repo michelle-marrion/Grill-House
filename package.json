@@ -1,0 +1,22 @@
+{
+  "name": "grill-house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass" : "sass --watch ./sass/main.scss:./css/style.css --style expanded",
+    "prefix":"postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michelle-marrion/Grill-House.git"
+  },
+  "author": "",
+  "browserslist":"last 4 versions",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michelle-marrion/Grill-House/issues"
+  },
+  "homepage": "https://github.com/michelle-marrion/Grill-House#readme"
+}
