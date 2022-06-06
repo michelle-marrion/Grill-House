@@ -1,6 +1,11 @@
-body
-{
-    margin: auto;
-    padding: 0px;
-    color: antiquewhite;
-}
+@import "./Utils/variables";
+@import "./utils/mixins";
+@import "./Pages/footer";
+@import "./Layout/body";
+@import "./Layout/nav-menu";
+@import "variables_overrides";
+@import "Layout/menu";
+@import "./Pages/section";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "normalize";

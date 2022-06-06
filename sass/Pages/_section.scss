@@ -1,0 +1,55 @@
+#party, #menu, #meat-experience, #special, #live-music,#method
+{
+    @include background($image);
+}
+
+#party, #special, #method, #live-music, #footer
+{
+    table
+    {
+        text-align: center;
+        th
+        {
+            background-color: $yellow;
+            color: $text-color-table;
+            @extend .fs-3;
+        }
+        width: 350px;
+        border: 5px solid $yellow;
+        tr td
+        {
+            padding: 5px;
+        }
+    }
+    p
+    {
+        @extend .fs-3;
+    }
+}
+#party, #live-music, #special, #footer
+{
+    td
+    {
+        @extend .fs-5;
+        @extend .fw-bold;
+    }
+    
+}
+
+
+#meat-experience
+{
+    p
+    {
+        color:$yellow;   
+    }
+    .meat
+        {
+            p
+            {
+                 text-shadow: 5px 5px 10px #000000;
+            }
+            // end P
+        }
+        // end .meat
+}
