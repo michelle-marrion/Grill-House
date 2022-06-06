@@ -1,0 +1,68 @@
+footer
+{
+    
+    ul
+    {
+        li
+        {
+            list-style-type: none;
+            text-decoration: none;
+        }
+    }
+    
+    h3
+    {
+        color: $yellow;
+    }
+
+    .end-footer
+    {
+        ul
+        {
+            li 
+            {
+                a
+                {
+                    color:$yellow;
+                    i
+                    {
+                        color:$yellow;
+                    }
+                }
+            }
+            
+        }
+        
+    }
+    h3
+    {
+        color: $yellow;
+        text-shadow: 5px 5px 10px #000000;
+    }
+}
+#footer
+{
+    ul
+    {
+        @extend .fw-normal;
+        @extend .fs-5;
+            a
+            {
+                color:$primary-color;
+                text-decoration: none;
+            }
+
+        li
+        {
+            padding-top: 20px;
+        }
+    }
+    ul:nth-child(2)
+    {
+        li
+        {
+            @extend .mx-5;
+        }
+        
+    }
+}
