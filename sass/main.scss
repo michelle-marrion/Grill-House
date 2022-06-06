@@ -1,11 +1,19 @@
 @import "./Utils/variables";
 @import "./utils/mixins";
-@import "./Pages/footer";
-@import "./Layout/body";
 @import "./Layout/nav-menu";
 @import "variables_overrides";
 @import "Layout/menu";
 @import "./Pages/section";
+@import "./Pages/footer";
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 @import "normalize";
+body
+{
+    
+    margin: auto;
+    padding: 0px;
+    background-color:$background-color;
+    color: $primary-color;
+}
+
