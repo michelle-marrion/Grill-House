@@ -17,6 +17,6 @@
  - Sass ;
  - Bootstrap 5 ;
 ## Final site
-![The San Juan Mountains are beautiful!](/images/Grill-House-ok.png "Screenshot du projet site web \"Grill House\"")
+![The San Juan Mountains are beautiful!](/images/Grill-House.png "Screenshot du projet site web \"Grill House\"")
 ## License
 Propriétaire : [Michelle Marrion](https://github.com/michelle-marrion/)
